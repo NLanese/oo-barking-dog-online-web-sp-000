@@ -3,7 +3,7 @@ class Dog
     @name = input
   end
   def name
-    return name
+    return @name
   end
   def bark
     puts "woof!"
